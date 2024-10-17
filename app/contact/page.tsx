@@ -7,7 +7,7 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Mail size={20} />,
-		href: "https://wa.me/00447597137739",
+		href: "https://wa.me/447597137739",
 		label: "WhatsApp",
 		handle: "+44 759 713 7739",
 	},
