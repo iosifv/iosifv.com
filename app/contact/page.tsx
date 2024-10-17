@@ -23,6 +23,24 @@ const socials = [
 		label: "Github",
 		handle: "iosifv",
 	},
+	{
+		icon: <Mail size={20} />,
+		href: "https://wa.me/447597137739",
+		label: "WhatsApp",
+		handle: "+44 759 713 7739",
+	},
+	{
+		icon: <Mail size={20} />,
+		href: "mailto:hi@iosifv.com",
+		label: "Email",
+		handle: "hi@iosifv.com",
+	},
+	{
+		icon: <Github size={20} />,
+		href: "https://github.com/iosifv",
+		label: "Github",
+		handle: "iosifv",
+	},
 ];
 
 export default function Example() {

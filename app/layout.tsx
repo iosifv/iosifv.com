@@ -6,21 +6,22 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "iosifv.com",
+    template: "%s | iosifv.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "A romanian expat living in London.",
   openGraph: {
-    title: "chronark.com",
+    title: "iosifv.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "A romanian expat living in London.",
+    url: "https://iosifv.com",
+    siteName: "iosifv.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
+        // add the iosifv.com image here
+        url: "https://iosifv.com/assets/images/logo/favicon-70x70.png",
+        width: 70,
+        height: 70,
       },
     ],
     locale: "en-US",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Iosifv",
     card: "summary_large_image",
   },
   icons: {
