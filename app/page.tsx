@@ -5,6 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
+  { name: "Links", href: "/links" },
 ];
 
 export default function Home() {
@@ -35,14 +36,14 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm working as a software engineer through {" "}
+          At {" "}
           <Link
             target="_blank"
             href="https://casa4.co.uk"
             className="underline duration-500 hover:text-zinc-300"
           >
             casa4.co.uk
-          </Link> to solve complex problems and build innovative solutions.
+          </Link> I solve complex problems and build innovative solutions for my clients.
         </h2>
       </div>
     </div>

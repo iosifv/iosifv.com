@@ -1,27 +1,33 @@
 "use client";
-import { Github, Linkedin, Mail, Phone, Twitter } from "lucide-react";
+import { Bitcoin, Github, Instagram, Mail } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Phone size={20} />,
-		href: "https://wa.me/447597137739",
-		label: "WhatsApp",
-		handle: "+44 759 713 7739",
+		icon: <Instagram size={20} />,
+		href: "https://www.instagram.com/iosifvee/",
+		label: "Instagram",
+		handle: "@iosifvee",
 	},
 	{
-		icon: <Mail size={20} />,
-		href: "mailto:hi@iosifv.com",
-		label: "Email",
-		handle: "hi@iosifv.com",
+		icon: <Github size={20} />,
+		href: "https://github.com/iosifv",
+		label: "Github",
+		handle: "iosifv",
 	},
 	{
-		icon: <Linkedin size={20} />,
-		href: "https://www.linkedin.com/in/iosifv",
-		label: "Linkedin",
-		handle: "@iosifv",
+		icon: <Bitcoin size={20} />,
+		href: "https://etherscan.io/address/0x2807DcEB543909a9173Df3c3Cb703f9447e6b771",
+		label: "ENS Name",
+		handle: "iosifv.eth",
+	},
+	{
+		icon: <Bitcoin size={20} />,
+		href: "https://www.blockchain.com/btc/address/bc1qhuz60p86kuakx99e2k8lkvpfstu7yfyj85qu76",
+		label: "BTC Address",
+		handle: "",
 	},
 ];
 
