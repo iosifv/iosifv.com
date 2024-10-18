@@ -23,3 +23,28 @@ pnpm install
 pnpm dev
 ```
 
+## Todo
+
+- [ ] Fix localhost warnings
+- [ ] Add prettier config
+- [ ] Create & Add favicons
+- [ ] Projects page
+  - [ ] homeless developer
+  - [ ] Link to github to this repo (Steal my source code)
+  - [ ] casa4.co.uk
+  - [ ] recspenses
+  - [ ] cli-path
+  - [ ] iosifv.eth
+  - [ ] ? Quote list - page through notion?
+  - [ ] 
+  - [ ] Persona Delegate
+  - [ ] Crypto mining
+  - [ ] Photography
+- [ ] Contact page
+- [ ] Home Page
+  - [ ] Move the footer to the bottom
+- [ ] Create a password protected page
+  - [ ] Add books list
+  - [ ] Add audiobooks list
+  - [ ] Link to my NAS
+- [ ] Add analytics

@@ -1,5 +1,5 @@
 "use client";
-import { Github, Linkedin, Mail, Phone, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -9,7 +9,7 @@ const socials = [
 		icon: <Phone size={20} />,
 		href: "https://wa.me/447597137739",
 		label: "WhatsApp",
-		handle: "+44 759 713 7739",
+		handle: "+44.759.713.7739",
 	},
 	{
 		icon: <Mail size={20} />,
@@ -18,10 +18,10 @@ const socials = [
 		handle: "hi@iosifv.com",
 	},
 	{
-		icon: <Linkedin size={20} />,
-		href: "https://www.linkedin.com/in/iosifv",
-		label: "Linkedin",
-		handle: "@iosifv",
+		icon: <Instagram size={20} />,
+		href: "https://www.instagram.com/iosifvee/",
+		label: "Instagram",
+		handle: "@iosifvee",
 	},
 ];
 
