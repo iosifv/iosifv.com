@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     siteName: "iosifv.com",
     images: [
       {
-        // add the iosifv.com image here
         url: "../public/favicon.png",
         width: 157,
         height: 157,
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Iosifv",
+    title: "iosifv",
     card: "summary_large_image",
   },
   icons: {

@@ -1,6 +1,8 @@
 <div align="center">
-    <a href="https://iosifv.com"><h1 align="center">iosifv.com</h1></a>
+    <a href="https://iosifv.com"><h2 align="center">iosifv.com</h1></a>
 </div>
+
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/iosifvcom)
 
 My personal website, built with:
 
