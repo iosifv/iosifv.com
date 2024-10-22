@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     images: [
       {
         // add the iosifv.com image here
-        url: "https://iosifv.com/assets/images/logo/favicon-70x70.png",
-        width: 70,
-        height: 70,
+        url: "../public/favicon.png",
+        width: 157,
+        height: 157,
       },
     ],
     locale: "en-US",
