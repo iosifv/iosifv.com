@@ -3,18 +3,20 @@ import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import { D } from "@upstash/redis/zmscore-Dc6Llqgr";
+
+const description =
+  "Balancing tech prowess with a love for motorcycle rides, boxing and vanlife adventures.";
 
 export const metadata: Metadata = {
   title: {
     default: "iosifv.com",
     template: "%s | iosifv.com",
   },
-  description:
-    "Balancing tech prowess with a love for boxing, photography, motorcycle rides, and vanlife adventures.",
+  description: description,
   openGraph: {
     title: "iosifv.com",
-    description:
-      "Balancing tech prowess with a love for boxing, photography, motorcycle rides, and vanlife adventures.",
+    description: description,
     url: "https://iosifv.com",
     siteName: "iosifv.com",
     images: [

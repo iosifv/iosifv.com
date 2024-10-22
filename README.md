@@ -28,7 +28,7 @@ pnpm dev
 
 - [ ] Fix localhost warnings
 - [x] Add prettier config
-- [ ] Create & Add favicons
+- [x] Create & Add favicons
 - [ ] Look into adding heroicons for the contact page
 - [ ] Projects page
   - [ ] homeless developer
@@ -50,3 +50,4 @@ pnpm dev
   - [ ] Add audiobooks list
   - [ ] Link to my NAS
 - [ ] Add analytics
+- [ ] Take out the analytics which uses the redis database

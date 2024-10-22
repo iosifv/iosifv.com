@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import { metadata } from "./layout";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
@@ -35,10 +36,7 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-          ~ Balancing tech prowess with a love for boxing, photography,
-          motorcycle rides, and vanlife adventures. ~
-        </h2>
+        <h2 className="text-sm text-zinc-500 ">~ {metadata.description} ~</h2>
         <br></br>
         <h2 className="text-lg text-zinc-500 ">○</h2>
         <br></br>
