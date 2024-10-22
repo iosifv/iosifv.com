@@ -9,10 +9,12 @@ export const metadata: Metadata = {
     default: "iosifv.com",
     template: "%s | iosifv.com",
   },
-  description: "A romanian expat living in London.",
+  description:
+    "Balancing tech prowess with a love for boxing, photography, motorcycle rides, and vanlife adventures.",
   openGraph: {
     title: "iosifv.com",
-    description: "A romanian expat living in London.",
+    description:
+      "Balancing tech prowess with a love for boxing, photography, motorcycle rides, and vanlife adventures.",
     url: "https://iosifv.com",
     siteName: "iosifv.com",
     images: [

@@ -35,45 +35,51 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">~ Romanian expat living in London ~</h2>
+        <h2 className="text-sm text-zinc-500 ">
+          ~ Balancing tech prowess with a love for boxing, photography,
+          motorcycle rides, and vanlife adventures. ~
+        </h2>
         <br></br>
         <h2 className="text-lg text-zinc-500 ">○</h2>
         <br></br>
         <h2 className="text-sm text-zinc-500 ">
-          I solve problems for my clients at {" "}
+          I solve problems for my clients at{" "}
           <Link
             target="_blank"
             href="https://casa4.co.uk"
             className="underline duration-500 hover:text-zinc-300"
           >
             Casa4
-          </Link>.
+          </Link>
+          .
         </h2>
         <h2 className="text-sm text-zinc-500 ">
-          I get my adrenaline rush on {" "}
+          I get my adrenaline rush on{" "}
           <Link
             target="_blank"
             href="https://www.youtube.com/watch?v=IgMAoBH4WFQ"
             className="underline duration-500 hover:text-zinc-300"
           >
             2 wheels
-          </Link> .
+          </Link>{" "}
+          .
         </h2>
         <h2 className="text-sm text-zinc-500 ">
-          I seek adventure in my  {" "}
+          I seek adventure in my{" "}
           <Link
             target="_blank"
             href="https://www.instagram.com/homeless.developer/"
             className="underline duration-500 hover:text-zinc-300"
           >
             converted van
-          </Link> .
+          </Link>{" "}
+          .
         </h2>
       </div>
       <div className="my-16 text-center animate-fade-in">
         {/* <h2 className="text-sm text-zinc-500 ">Made in London 🇬🇧 with ♡.</h2> */}
         <h2 className="text-sm text-zinc-500 ">
-          © Iosif V. | Steal my source code {" "} 
+          © Iosif V. | Steal my source code{" "}
           <Link
             target="_blank"
             href="https://www.github.com/iosifv/iosifv.com"
@@ -85,5 +91,4 @@ export default function Home() {
       </div>
     </div>
   );
-
 }
