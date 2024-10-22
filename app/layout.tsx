@@ -12,8 +12,7 @@ export const metadata: Metadata = {
   description: "A romanian expat living in London.",
   openGraph: {
     title: "iosifv.com",
-    description:
-      "A romanian expat living in London.",
+    description: "A romanian expat living in London.",
     url: "https://iosifv.com",
     siteName: "iosifv.com",
     images: [
@@ -67,8 +66,9 @@ export default function RootLayout({
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${
+          process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+        }`}
       >
         {children}
       </body>

@@ -2,7 +2,8 @@
     <a href="https://iosifv.com"><h1 align="center">iosifv.com</h1></a>
 </div>
 
-My personal website, built with: 
+My personal website, built with:
+
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Upstash](https://upstash.com)
@@ -13,10 +14,10 @@ My personal website, built with:
 
 ## Running Locally
 
-
 Create a `.env` file similar to `.env.example`.
 
 Then install dependencies and run the development server:
+
 ```sh-session
 git clone
 pnpm install
@@ -26,8 +27,9 @@ pnpm dev
 ## Todo
 
 - [ ] Fix localhost warnings
-- [ ] Add prettier config
+- [x] Add prettier config
 - [ ] Create & Add favicons
+- [ ] Look into adding heroicons for the contact page
 - [ ] Projects page
   - [ ] homeless developer
   - [ ] Link to github to this repo (Steal my source code)
@@ -36,7 +38,7 @@ pnpm dev
   - [ ] cli-path
   - [ ] iosifv.eth
   - [ ] ? Quote list - page through notion?
-  - [ ] 
+  - [ ]
   - [ ] Persona Delegate
   - [ ] Crypto mining
   - [ ] Photography
