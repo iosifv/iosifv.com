@@ -11,6 +11,7 @@ My personal website, built with:
 - [Upstash](https://upstash.com)
 - [Contentlayer](https://www.contentlayer.dev/)
 - [Vercel](https://vercel.com/)
+- [Chronark](https://github.com/chronark/chronark.com)
 
 <br/>
 
@@ -31,12 +32,14 @@ pnpm dev
 - [ ] Fix localhost warnings
 - [x] Add prettier config
 - [x] Create & Add favicons
-- [ ] Look into adding heroicons for the contact page
-- [ ] Projects page
-  - [ ] homeless developer
+- [ ] Projects page template
+  - [ ] look into changing the white background to dark grey
+  - [ ] Change twitter and github links to something else or delete
+- [ ] Projects pages
+  - [x] homeless developer
   - [ ] Link to github to this repo (Steal my source code)
-  - [ ] casa4.co.uk
-  - [ ] recspenses
+  - [x] casa4.co.uk
+  - [x] recspenses
   - [ ] cli-path
   - [ ] iosifv.eth
   - [ ] ? Quote list - page through notion?
@@ -45,6 +48,7 @@ pnpm dev
   - [ ] Crypto mining
   - [ ] Photography
 - [ ] Contact page
+  - [ ] Look into adding heroicons for the contact page
 - [ ] Home Page
   - [ ] Move the footer to the bottom
 - [ ] Create a password protected page

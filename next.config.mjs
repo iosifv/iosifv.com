@@ -6,6 +6,16 @@ const nextConfig = {
   experimental: {
     mdxRs: true,
   },
+  async redirects() {
+    return [
+      {
+        // I need this because iosifv.eth points to this page and actually updating a .eth website costs money :)
+        source: "/cv",
+        destination: "https://cv.iosifv.com",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default withContentlayer(nextConfig);
