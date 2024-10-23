@@ -1,75 +1,28 @@
 ---
 title: "Homeless Developer"
-description: A simple blog to document my journey as a homeless developer traveling the world.
-instagram: https://www.instagram.com/homeless.developer/
+description: A simple instagram page to document my journey as a wannabe vanlifer.
+url: https://www.instagram.com/homeless.developer/
+date: 2021-03-10
 published: true
-  
 ---
-A minimal library for access control. It is designed to be used together with opaque access tokens by providing a simple interface to define roles with different access permissions and verifying requests to resources.
 
-- Fully typed
-- Zero dependencies
-- Serializable to store in a database
+#### A Huge Man in a Tiny Van: My Vanlife Adventure
 
-## Install
+I’m a pretty big guy, yet for some reason, I have a thing for small spaces. Blame it on the vanlife trend — I got hooked. For years, I imagined having my own van, one I’d build myself. And sure, the idea of traveling was cool, but let's be honest: I was probably dreaming more about _coding in strange places_ than exploring new countries or to actually live full time in a van.
 
-```sh-session
-npm i @chronark/access
-```
+#### The Big Yellow Submarine
 
-## Usage
+Fast forward to 2023, when I made the leap and bought my very own big, bright yellow van. It's the kind of van that people either assume is full of snacks or questionably large boxes. Little did they know, I was about to transform it into a full-on home on wheels.
 
-```ts
-import { AccessControl, Role } from "@chronark/access";
+I spent almost a year working on it getting delayed mostly by my lack of knowledge, lack of planing, time to actually work and most importantly the lack of a propper workshop.
+Regardless, I ended up turning this submarine into a cozy little space where I can sleep, cook, and yes, code in weird places — because what’s the point of vanlife without a bit of Wi-Fi?
 
-/**
- * Define all your resources and their access patterns
- *
- * key => resource
- * value => array of access types
- */
-type Statements = {
-  user: ["read", "write", "dance"];
-  team: ["read", "write"];
-};
+#### The Build Journey
 
-/**
- * Create an access control instance and pass the Statements type to enjoy full
- * type safety
- */
-const ac = new AccessControl<Statements>();
+The process was an adventure in itself. I tackled everything from installing solar panels to building cabinets that sort of open without falling apart. I documented the whole journey on Instagram, so you can check out my misadventures and occasional successes right here: [@homeless.developer](https://www.instagram.com/homeless.developer/)
 
-/**
- * Now you can define one or more roles by specifying the access permissions
- *
- * This is already fully typed and typescript will let you know if you try to
- * use anything, that is not defined in the Statements type.
- */
-const role = ac.newRole({
-  user: ["read", "write"],
-  team: ["read"],
-});
+#### What’s Next?
 
-/**
- * Simulate storing and retrieving the role in a database
- *
- * The idea here is, that you can store permissions alongside an API token.
- * Now, when you verify the token, you can also verify the access permissions.
- */
-const serialized = role.toString();
+Now that the van’s ready to roll, I’m set to hit the road — laptop in hand — probably finding the most scenic spots to work on code that’ll make people say, “Wait, you did that from where?”
 
-/**
- * Note how you can pass in the Statements type again, to get full type safety
- */
-const recovered = Role.fromString<Statements>(serialized);
-
-/**
- * Validate the role by specifying the resource and the required access
- *
- * everything is fully typed
- */
-const res = recovered.authorize({"team", ["read"]});
-
-// res.success => boolean
-// res.error => string | undefined provides a reason for failure
-```
+![instagram profile picture](/images/homeless.developer-profile.jpg)
