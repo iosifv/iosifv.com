@@ -57,3 +57,7 @@ pnpm dev
   - [ ] Link to my NAS
 - [ ] Add analytics
 - [ ] Take out the analytics which uses the redis database
+
+## Notes
+
+- App used to generate my email signature https://webapp.wisestamp.com/
