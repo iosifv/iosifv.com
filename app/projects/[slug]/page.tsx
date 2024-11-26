@@ -28,6 +28,8 @@ export default async function PostPage({ params }: Props) {
   const slug = params?.slug;
   const project = allProjects.find((project) => project.slug === slug);
 
+  console.log(project);
+
   if (!project) {
     notFound();
   }
@@ -40,7 +42,10 @@ export default async function PostPage({ params }: Props) {
       <Header project={project} views={views} />
       <ReportView slug={project.slug} />
 
-      <article className="px-4 py-12 mx-auto prose prose-zinc prose-quoteless">
+      <article
+        className="px-4 py-12 mx-auto prose prose-zinc prose-quoteless"
+        style={{ maxWidth: project.width === "full" ? "2000px" : "65ch" }}
+      >
         <Mdx code={project.body.code} />
       </article>
     </div>
