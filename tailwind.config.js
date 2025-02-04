@@ -36,6 +36,7 @@ module.exports = {
         "gradient-radial":
           "radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
       },
+      // Animation of the title text on homepage
       animation: {
         "fade-in": "fade-in 2s ease-in-out forwards",
         title: "title 2s ease-out forwards",
